@@ -1,0 +1,107 @@
+section{
+    display: flex;
+    height:50px;
+    align-items: center;
+   
+}
+
+
+.left{
+    flex:1;
+   
+    display: flex;
+}
+
+.middle{
+    display: flex;
+    flex:1;
+  
+    justify-content: space-around;
+    
+    
+}
+
+.right{
+    flex:1;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    
+}
+nav{
+    margin-right:10px;
+}
+
+.eduflex{
+    margin-left: 0px;
+    color: gray;
+}
+.container{
+   
+    height: 80%;
+    display: flex;
+    
+}
+.one{
+   
+    height:100%;
+    width: 50%;
+}
+.two{
+   
+    height:100% ;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.pho{
+    width:600px;
+    object-fit: cover;
+    border-radius: 100px;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:250px;
+    gap: 20px;
+   
+}
+.containr{
+   margin-left:50px;
+   margin-right:50px
+}
+
+.desc{
+    margin-top: 100px;
+}
+
+h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+}
+.explore,.learn{
+    border-radius: 20px;
+    height: 50px;
+
+}
+.explore{
+    background-color: pink
+}
+.login,.signup{
+    border-radius: 20px;
+}
+nav{
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 900;
+    font-size: larger;
+}
+.learn{
+    background-color: rgba(112, 158, 199, 0.652);
+}
