@@ -1,0 +1,16 @@
+gsap.from(".two",{
+    opacity:0,
+    duration:2,
+    x:-100
+})
+gsap.from(".desc",{
+    opacity:0,
+    duration:2,
+    stagger:1,
+    y:100
+})
+gsap.from(".buttons",{
+    opacity:0,
+    duration:2,
+    y:100
+})
